@@ -1,0 +1,19 @@
+name: PI_Fabrica_Automatizada
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  linha-de-producao:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1. Receber as peças da fábrica
+        uses: actions/checkout@v3
+
+      - name: 2. Área de montagem
+        run: echo "Montando o produto e verificando encaixes!"
+
+      - name: 3. Controle de qualidade
+        run: echo "Testando funcionamento do produto final!”
