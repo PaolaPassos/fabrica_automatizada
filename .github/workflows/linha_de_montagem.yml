@@ -1,4 +1,4 @@
-name: PI_Fabrica_Automatizada
+name: fabrica_automatizada
 
 on:
   push:
