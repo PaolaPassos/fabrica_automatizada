@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 1. Receber as peças da fábrica
+      - name: "1. Receber as peças da fábrica"
         uses: actions/checkout@v3
 
-      - name: 2. Área de montagem
+      - name: "2. Área de montagem"
         run: echo "Montando o produto e verificando encaixes!"
 
-      - name: 3. Controle de qualidade
+      - name: "3. Controle de qualidade"
         run: echo "Testando funcionamento do produto final!”
